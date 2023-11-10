@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-menu-dark {
+  background-color: rgb(25, 25, 25) !important;
+}
+
+.ant-layout-sider {
+  background-color: rgb(25, 25, 25) !important;
+}
+
+.ant-menu-title-content {
+  font-size: 11px;
+}
+
+.ant-menu-item-selected {
+  background-color: rgba(64, 64, 64, 1) !important;
+  font-weight: 500 !important;
+
+  .ant-menu-title-content {
+    font-size: 12px;
+  }
+}
+

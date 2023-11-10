@@ -1,0 +1,38 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --fix",
+    "start": "nodemon index.js",
+    "dev": "cross-env RUN_LOCAL=yes nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "app-root-path": "^3.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "custom-env": "^2.0.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validation": "^4.1.0",
+    "helmet": "^7.1.0",
+    "http-status": "^1.7.3",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7",
+    "pg": "^8.11.3",
+    "require-context": "^1.1.0",
+    "uuid": "^9.0.1",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
+}
